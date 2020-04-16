@@ -1,3 +1,27 @@
 h1 {
   font-size: 6rem;
 }
+body {
+  background-color: #ffffff;
+  color: #333333;
+}
+
+/* Containers */
+
+.container-all {
+  padding: 7% 15%;
+}
+
+
+/* Sections */
+
+#iam,
+#contact,
+#navigation-bar {
+  background-color: #333333;
+  color:#ffffff;
+}
+
+.navbar {
+  background-color: #333333;
+}
