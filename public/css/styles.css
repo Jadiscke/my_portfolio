@@ -1,9 +1,17 @@
 h1 {
-  font-size: 6rem;
+  line-height: 2;
+  font-size: 2.5rem;
+  font-weight: 900;
+  padding-top: 10%;
 }
+
+
+
 body {
+  font-family: 'Merriweather', serif;
   background-color: #ffffff;
   color: #333333;
+  text-align: center;
 }
 
 /* Containers */
@@ -15,13 +23,70 @@ body {
 
 /* Sections */
 
-#iam,
 #contact,
 #navigation-bar {
   background-color: #333333;
   color:#ffffff;
 }
 
+#iam {
+  background-color: #333333;
+  color: #fff;
+
+}
+
+/* Navbar */
 .navbar {
   background-color: #333333;
+}
+
+.navbar img {
+  width: 30px;
+}
+
+
+/* IAM */
+
+#iam div.container-all {
+  background-image: url("../images/background.jpg");
+  background-size: cover;
+}
+
+#iam img {
+  width: 300px;
+}
+.subtitle {
+  color: #ffe75e;
+  font-family: monospace;
+  font-size: 1.7rem;
+  font-weight: 700;
+  line-height: 2;
+}
+
+.fa-code {
+  font-size: 5rem;
+}
+
+.description {
+  padding-top: 10%;
+  font-weight: 700;
+  font-family: monospace;
+  font-size: 1.4rem;
+}
+
+/* Medium and Large Screen Sizes */
+
+
+
+/* Large Screens */
+
+@media screen and (min-width: 1180px){
+  h1 {
+    font-size: 2.5rem;
+    line-height: 3;
+  }
+
+  .fa-code {
+    padding-left: 20%;
+  }
 }
