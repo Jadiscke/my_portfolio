@@ -12,6 +12,10 @@
   <div class="form-group">
     <label for="textArea">Message</label>
     <textarea class="form-control" id="textArea" name="textArea" rows="8" cols="40"></textarea>
+    <% if(messageStatus){ %>
+      <small> Your message was sent </small>
+    <%} %>
+
   </div>
 
   <div class="button-r">
