@@ -6,7 +6,8 @@ This Portfolio APP has an mailchimpAPI integration to collect data from the Cont
 
 
 ## Requirements
-Node.js v12 LTS
-Express.js v4.xx
-EJS
-Bootstrap v4.00
+
+- Node.js v12 LTS
+- Express.js v4.xx
+- EJS
+- Bootstrap v4.00
